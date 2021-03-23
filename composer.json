@@ -1,0 +1,29 @@
+{
+    "type": "library",
+    "license": "proprietary",
+    "name": "ad3n/use-case",
+    "authors": [
+      {
+        "name": "Muhamad Surya Iksanudin",
+        "email": "surya.iksanudin@gmail.com",
+        "homepage": "https://github.com/ad3n"
+      }
+    ],
+    "require": {
+      "php": ">=7.2"
+    },
+    "config": {
+      "preferred-install": {
+        "*": "dist"
+      },
+      "sort-packages": true,
+      "classmap-authoritative": true,
+      "optimize-autoloader": true
+    },
+    "autoload": {
+      "psr-4": {
+        "Ad3n\\UseCase\\": "src/"
+      }
+    }
+}
+
